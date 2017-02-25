@@ -1,4 +1,4 @@
-# AI_Hackerrank
+#  Artificial Intelligence from Hackerrank
 
 ## Questions
 
