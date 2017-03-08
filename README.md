@@ -20,3 +20,6 @@ Laptop Battery Life <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerran
 
 
 Polynomial Regression: Office Prices <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/Polynomial%20Regression%20Office%20Prices.py)<br />[Question](https://www.hackerrank.com/challenges/predicting-office-space-price)
+
+
+tic tac toe game writhen by me [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/xoxgame.py)
