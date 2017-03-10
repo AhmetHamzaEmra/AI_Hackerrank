@@ -45,8 +45,81 @@ def Check_win(game):
 
         
 def AI(game):
-    
-    if game[0] == 'X' and game[0]==game[1] and game[2]=='_':
+    # Win position
+    if game[0] == 'O' and game[0]==game[1] and game[2]=='_':
+        game[2]='O'
+        return game
+    elif game[1]=='O' and game[1]==game[2] and game[0]=='_':
+        game[0]='O'
+        return game
+    elif game[0]=='O' and game[0]==game[2] and game[1]=='_':
+        game[1]='O'
+        return game
+    elif game[3]=='O' and game[3]==game[5] and game[4]=='_': 
+        game[4]='O'
+        return game
+    elif game[4]=='O' and game[4]==game[5] and game[3]=='_':
+        game[3]='O'
+        return game
+    elif game[3]=='O' and game[3]==game[4] and game[5]=='_':
+        game[5]='O'
+        return game
+    elif game[6]=='O' and game[6]==game[8] and game[7]=='_':
+        game[7]='O'
+        return game
+    elif game[7]=='O' and game[7]==game[8] and game[6]=='_':
+        game[6]='O'
+        return game
+    elif game[6]=='O' and game[6]==game[7] and game[8]=='_':
+        game[8]='O'
+        return game
+    elif game[0]=='O' and game[0]==game[3] and game[6]=='_':
+        game[6]='O'
+        return game
+    elif game[0]=='O' and game[0]==game[6] and game[3]=='_':
+        game[3]='O'
+        return game
+    elif game[6]=='O' and game[6]==game[3] and game[0]=='_':
+        game[0]='O'
+        return game
+    elif game[1]=='O' and game[1]==game[4] and game[7]=='_':    
+        game[7]='O'
+        return game
+    elif game[1]=='O' and game[1]==game[7] and game[4]=='_':
+        game[4]='O'
+        return game
+    elif game[7]=='O' and game[7]==game[4] and game[1]=='_':
+        game[1]='O'
+        return game
+    elif game[2]=='O' and game[2]==game[5] and game[8]=='_':   
+        game[8]='O'
+        return game
+    elif game[2]=='O' and game[2]==game[8] and game[5]=='_':
+        game[5]='O'
+        return game
+    elif game[8]=='O' and game[8]==game[5] and game[2]=='_':
+        game[2]='O'
+        return game
+    elif game[0]=='O' and game[4]==game[0] and game[8]=='_': 
+        game[8]='O'
+        return game
+    elif game[0]=='O' and game[8]==game[0] and game[4]=='_':
+        game[4]='O'
+        return game
+    elif game[8]=='O' and game[4]==game[8] and game[0]=='_':
+        game[0]='O'
+        return game
+    elif game[2]=='O' and game[4]==game[2] and game[6]=='_': 
+        game[6]='O'
+        return game
+    elif game[2]=='O' and game[6]==game[2] and game[4]=='_':
+        game[4]='O'
+        return game
+    elif game[6]=='O' and game[4]==game[6] and game[2]=='_':
+        game[2]='O'
+        return game
+    # Defens
+    elif game[0] == 'X' and game[0]==game[1] and game[2]=='_':
         game[2]='O'
         return game
     elif game[1]=='X' and game[1]==game[2] and game[0]=='_':
@@ -83,7 +156,7 @@ def AI(game):
         game[0]='O'
         return game
     elif game[1]=='X' and game[1]==game[4] and game[7]=='_':    
-        game[6]='O'
+        game[7]='O'
         return game
     elif game[1]=='X' and game[1]==game[7] and game[4]=='_':
         game[4]='O'
@@ -98,7 +171,7 @@ def AI(game):
         game[5]='O'
         return game
     elif game[8]=='X' and game[8]==game[5] and game[2]=='_':
-        game[3]='O'
+        game[2]='O'
         return game
     elif game[0]=='X' and game[4]==game[0] and game[8]=='_': 
         game[8]='O'
@@ -142,7 +215,7 @@ def play(game):
     else:
         print("Chose again!")
         play(game)
-    
+    #Check_win(game)
     AI(game)
 
     for i in range(len(game)):
