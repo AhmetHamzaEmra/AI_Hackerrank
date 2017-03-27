@@ -7,7 +7,7 @@ Bot saves princess <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank
 
 Bot saves princess - 2 <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/Bot%20saves%20princess%20-%202.py)<br />[Question](https://www.hackerrank.com/challenges/saveprincess2)
 
-Bot saves princess - 2 <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/BotClean.py)<br />[Question](https://www.hackerrank.com/challenges/botclean)
+BotClean <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/BotClean.py)<br />[Question](https://www.hackerrank.com/challenges/botclean)
 
 
 BotClean Stochastic <br /> [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/BotClean%20Stochastic.py)<br />[Question](https://www.hackerrank.com/challenges/botcleanr)
