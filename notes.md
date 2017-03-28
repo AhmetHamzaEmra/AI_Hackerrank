@@ -97,7 +97,7 @@ X_test_counts = count_vect.transform(X_test)
 X_test_tfidf = tfidf_transformer.transform(X_test_counts)
 clf = BernoulliNB(alpha = .3)
 clf.fit(X_train_tfidf, Y_train)
-clf.predict(X_new_tfidf)
+clf.predict(X_test_tfidf)
 ```
 
 # reading data!
