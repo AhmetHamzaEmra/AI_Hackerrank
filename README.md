@@ -37,3 +37,6 @@ Craigslist Post Classifier: Identify the Category <br /> [Code](https://github.c
 ## My codes:
 
 tic tac toe game writhen by me <br />  [Code](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/xoxgame.py)
+
+
+[Notes](https://github.com/AhmetHamzaEmra/AI_Hackerrank/blob/master/notes.md)
